@@ -66,7 +66,18 @@ Here is an example of a `composer.json` file for a HarmonyCMS theme:
 {% code-tabs %}
 {% code-tabs-item title="composer.json" %}
 ```text
-
+{
+  "extra": {
+    "harmony-theme": {
+      "name": "Acme demo theme",
+      "description": "Extra description for Acme theme",
+      "screenshot": "%kernel.theme_dir%/default/screenshot.png",
+      "parents": [
+        "theme/other-theme"
+      ]
+    }
+  }
+}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
