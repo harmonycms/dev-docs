@@ -12,6 +12,7 @@ Here are a few important tidbits:
 * Each theme has its own sub-folder, in the main themes folder.
 * Each theme is made of template files \(.html.twig\), image files \(.jpg, .png and such\), one or more CSS files \(.css\), and usually JavaScript files \(.js\).
 * Each theme has a `composer.json` file, used by [Composer](https://getcomposer.org) to install it, defines all of the theme’s configuration and meta information.
+* Each theme has a `preview` image file, located at the root of the `assets` directory. Supported extensions of this preview file are: `.jpg`, `.jpeg`, `.png`or `.gif`.
 
 Here is its organization, which is explained further below.
 
