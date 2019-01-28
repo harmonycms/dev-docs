@@ -72,7 +72,7 @@ Here is an example of a `composer.json` file for a HarmonyCMS theme:
     "harmony-theme": {
       "name": "Acme demo theme",
       "description": "Extra description for Acme theme",
-      "preview": "%current_theme%/preview.{jpg,jpeg,png,gif}",
+      "preview": "/themes/%current_theme%/preview.jpg",
       "parents": [
         "vendor/other-theme"
       ]
