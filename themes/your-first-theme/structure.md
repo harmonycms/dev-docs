@@ -65,6 +65,8 @@ Here is an example of a `composer.json` file for a HarmonyCMS theme:
 
 ### Extra keys
 
+Theme configuration was meant to be mixed with the one from Composer. Fields `name`, `description` , `version` and `authors` are shared between these by default. To override this fields \(including the preview image file\) you can add extra values in `composer.json` file, like the example bellow:
+
 {% code-tabs %}
 {% code-tabs-item title="composer.json" %}
 ```text
