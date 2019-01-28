@@ -20,8 +20,9 @@ acme
 ├── assets
 │   ├── css
 │   │   └── main.css
+│   ├── images
 │   ├── javascripts
-│   └── images
+│   └── preview.jpg
 ├── composer.json
 ├── translations
 │   └── messages.en.yml
@@ -71,9 +72,9 @@ Here is an example of a `composer.json` file for a HarmonyCMS theme:
     "harmony-theme": {
       "name": "Acme demo theme",
       "description": "Extra description for Acme theme",
-      "screenshot": "%kernel.theme_dir%/default/screenshot.png",
+      "preview": "%current_theme%/preview.{jpg,jpeg,png,gif}",
       "parents": [
-        "theme/other-theme"
+        "vendor/other-theme"
       ]
     }
   }
