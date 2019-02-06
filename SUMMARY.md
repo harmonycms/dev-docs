@@ -10,6 +10,7 @@
   * [Theme configuration reference](themes/theme-configuration-reference.md)
 * [Translations](translations.md)
 * [Settings](settings/README.md)
+  * [Quick start](settings/quick-start.md)
   * [Console command](settings/console-command.md)
   * [Reference](settings/reference.md)
 * [Kernel configuration](kernel-configuration.md)
