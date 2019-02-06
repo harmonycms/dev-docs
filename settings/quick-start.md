@@ -39,7 +39,7 @@ Here is the list of all available types allowed by the settings bundle. You can 
 | `date` | Symfony\Component\Form\Extension\Core\Type\DateType |
 | `date_interval` | Symfony\Component\Form\Extension\Core\Type\DateIntervalType |
 | `email` | Symfony\Component\Form\Extension\Core\Type\EmailType |
-| `entity` | Symfony\Component\Form\Extension\Core\Type\EntityType |
+| `entity` | Symfony\Bridge\Doctrine\Form\Type\EntityType |
 | `file` | Symfony\Component\Form\Extension\Core\Type\FileType |
 | `float` | Symfony\Component\Form\Extension\Core\Type\NumberType |
 | `int` | Symfony\Component\Form\Extension\Core\Type\IntegerType |
