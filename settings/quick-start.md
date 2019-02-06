@@ -46,6 +46,7 @@ Here is the list of all available types allowed by the settings bundle. You can 
 | `integer` | Symfony\Component\Form\Extension\Core\Type\IntegerType |
 | `language` | Symfony\Component\Form\Extension\Core\Type\LanguageType |
 | `locale` | Symfony\Component\Form\Extension\Core\Type\LocaleType |
+| `money` | Symfony\Component\Form\Extension\Core\Type\MoneyType |
 | `number` | Symfony\Component\Form\Extension\Core\Type\NumberType |
 | `password` | Symfony\Component\Form\Extension\Core\Type\PasswordType |
 | `percent` | Symfony\Component\Form\Extension\Core\Type\PercentType |
