@@ -2,7 +2,7 @@
 
 * [Welcome](README.md)
 * [Extensions](extensions.md)
-* [Themes](themes/README.md)
+* [The Theme System](themes/README.md)
   * [Your first theme](themes/your-first-theme/README.md)
     * [Asset Management](themes/your-first-theme/asset-management.md)
     * [Structure](themes/your-first-theme/structure.md)
