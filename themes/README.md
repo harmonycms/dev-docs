@@ -10,9 +10,15 @@ Themes used in your applications must be enabled in the `/config/themes.php` fil
 <?php
 
 return [
-    Harmony\Theme\AcmeTheme\HarmonyAcmeTheme::class => ['all' => true],
+    App\Acme\TestTheme\AcmeTestTheme::class => ['all' => true],
 ];
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+{% hint style="info" %}
+This is code is automatically generated from the HarmonyFlex tool. 
+{% endhint %}
+
+
 

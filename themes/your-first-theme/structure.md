@@ -34,10 +34,10 @@ acme
 
 ## Composer integration
 
-Every theme should have a default configuration located in a `composer.json` file. The type should be equals to the value `harmony-theme` so HarmonyCMS will be able to detect your code has an HarmonyCMS theme.
+Every theme should have a default configuration located in a `composer.json` file. The type should be equals to the value `harmony-theme` so HarmonyFlex tool will be able to detect your code has an HarmonyCMS theme.
 
 {% hint style="info" %}
-By configuring Composer package along with theme we do not have to duplicate fields like `name`, `description` , `version` , `type` or `authors`. This fields are shared between Composer and HarmonyCMS.
+By configuring Composer package along with theme we do not have to duplicate fields like `name`, `description` , `version` or `authors`. This fields are shared between Composer and HarmonyCMS.
 {% endhint %}
 
 Here is an example of a `composer.json` file for a HarmonyCMS theme:
@@ -58,29 +58,6 @@ Here is an example of a `composer.json` file for a HarmonyCMS theme:
             "role": "Developer"
         }
     ]
-}
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
-### Extra keys
-
-Theme configuration was meant to be mixed with the one from Composer. Fields `name`, `description` , `version` and `authors` are shared between these by default. To override this fields \(including the preview image file\) you can add extra values in `composer.json` file, like the example bellow:
-
-{% code-tabs %}
-{% code-tabs-item title="composer.json" %}
-```text
-{
-  "extra": {
-    "harmony-theme": {
-      "name": "Acme demo theme",
-      "description": "Extra description for Acme theme",
-      "preview": "/themes/%current_theme%/preview.jpg",
-      "parents": [
-        "vendor/other-theme"
-      ]
-    }
-  }
 }
 ```
 {% endcode-tabs-item %}
