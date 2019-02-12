@@ -1,3 +1,7 @@
+---
+description: Here is the list of files required for HarmonyCMS theme to be working.
+---
+
 # Chapter 2. The main files
 
 ## Composer integration
@@ -30,4 +34,25 @@ Here is an example of a `composer.json` file for a HarmonyCMS theme:
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+## The main theme class
+
+Theme SDK provides the main classes needed to create easily as possible a Theme for HarmonyCMS.  
+In HarmonyCMS a theme is identical as a Bundle. Like bundles, the developer need to create a main class with a name who is following the same [Bundles naming conventions standard](https://symfony.com/doc/master/bundles/best_practices.html#bundles-naming-conventions).
+
+Here is a simple example of main class for a theme:
+
+```php
+<?php
+
+namespace App\Theme\AcmeTheme;
+
+use Harmony\Sdk\Theme\Theme;
+
+class AppAcmeTheme extends Theme
+{
+    const NAME        = 'App Acme';
+    const DESCRIPTION = 'Acme starter theme';
+}
+```
 

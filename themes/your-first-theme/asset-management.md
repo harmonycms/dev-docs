@@ -1,5 +1,5 @@
 ---
-description: 'Manage your theme''s assets, such as css, javascripts, images, ...)'
+description: 'Manage your theme''s assets, such as css, javascripts, images, ...'
 ---
 
 # Chapter 3. Asset Management
