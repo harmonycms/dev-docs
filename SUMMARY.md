@@ -1,6 +1,12 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [Bundles](bundles/README.md)
+  * [AdminBundle](bundles/adminbundle.md)
+  * [CoreBundle](bundles/corebundle.md)
+  * [MenuBundle](bundles/menubundle.md)
+  * [ThemeBundle](bundles/themebundle.md)
+  * [WebProfilerBundle](bundles/webprofilerbundle.md)
 * [Extensions](extensions.md)
 * [The Theme System](themes/README.md)
   * [Your first theme](themes/your-first-theme/README.md)
