@@ -1,4 +1,4 @@
-# Quick start
+# Chapter 1. Quick start
 
 The settings bundle allow you to register new settings fro your website. To do so add a file named `config/packages/settings_manager.yaml`. Here is an example:
 

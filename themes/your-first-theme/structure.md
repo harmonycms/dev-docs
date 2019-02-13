@@ -14,6 +14,7 @@ harmony
      │   └── preview.jpg
      ├── composer.json
      ├── HarmonyAcmeTheme.php
+     ├── settings.yaml
      ├── translations
      │   └── messages.en.yml
      └── views
