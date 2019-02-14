@@ -8,6 +8,10 @@ You can execute the next command to display the current raw configuration for th
 php bin/console debug:config helis_settings_manager
 ```
 
+{% hint style="warning" %}
+Settings from themes or extensions won't be visible using this command
+{% endhint %}
+
 ## Using the debug command
 
 ### Displays all available settings
