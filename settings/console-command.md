@@ -9,7 +9,7 @@ php bin/console debug:config helis_settings_manager
 ```
 
 {% hint style="warning" %}
-Settings from themes or extensions won't be visible using this command
+Settings from **themes** or **extensions** won't be visible in the raw configuration
 {% endhint %}
 
 ## Using the debug command
