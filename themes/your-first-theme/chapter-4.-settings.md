@@ -15,15 +15,12 @@ settings:
   - name: foo
     description: 'foo desc'
     type: bool
-    data: { value: false }
-    tags: [{ name: 'super_switch' }]
+    data: false
+    tags:
+        - 'super_switch'
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
-
-{% hint style="info" %}
-Normalized require to write YAML with normalized values such as key `value` for **data** and `name` key for **tags** by example.
-{% endhint %}
 
 {% hint style="warning" %}
 **Attention**  
