@@ -1,22 +1,45 @@
 # Chapter 4. Rendering menus
 
-Once you've setup your menu, rendering it is easy. If you follow the chapter 3 to create a simple menu called `main_menu`, you can render it using the next twig function:
+Once you've setup your menu, rendering it is easy. If you followed the [chapter 3](create-your-first-menu.md#create-new-menu) to create a simple menu called `main_menu`, you can render it using the next twig function:
 
 ```markup
-{{ knp_menu_render('my_mega_menu') }}
+{{ menu_render('main_menu') }}
 ```
+
+{% hint style="warning" %}
+This twig function is an helper provided by the HarmonyMenuBundle.
+{% endhint %}
 
 ## Customizing the rendered markup
 
 ### Updating the template file
 
-Currently, KnpMenu provide a default `knp_menu.html.twig` template who is used to render each menu.
+Currently, KnpMenu provide a default `knp_menu.html.twig` template who is used to render each menu.  
+If you want to use a custom template to render a specific menu, you can add an option to specify the template file, like:
+
+```text
+{{ knp_menu_render('main_menu', { template: 'main_menu.html.twig' }) }}
+```
 
 ### Using Twig functions
 
-The best way to render and customize the rendered menu would be to use the built-in functions provided by KnpMenuBundle itself. Here is an example on how to render a menu in a Bootstrap 4 theme:
+The best way to render and customize the rendered menu would be to use the built-in functions provided by our HarmonyMenuBundle.  
+Here is an example on how to render a menu in a Bootstrap 4 theme:
+
+#### Using our HarmonyMenuBundle twig function helper
+
+```text
+{{ menu_render('main_menu', {
+    'currentClass': 'active',
+    'childrenAttributes': { 'class': 'navbar-nav ml-auto' },
+    'attributes': { 'class': 'nav-item' },
+    'linkAttributes': { 'class': 'nav-link' }
+}) }}
+```
 
 #### Using KnpMenu twig functions
+
+If you prefer to use the built-in functions from KnpMenuBundle, you can have the same result, with this demo code:
 
 ```markup
 {% set menu = knp_menu_get('main_menu') %}
@@ -29,15 +52,4 @@ The best way to render and customize the rendered menu would be to use the built
 ```
 
 For more example, see the [official documentation](https://symfony.com/doc/master/bundles/KnpMenuBundle/index.html#rendering-menus).
-
-#### Using our menu\_render helper
-
-```text
-{{ menu_render('main_menu', {
-    'currentClass': 'active',
-    'childrenAttributes': { 'class': 'navbar-nav ml-auto' },
-    'attributes': { 'class': 'nav-item' },
-    'linkAttributes': { 'class': 'nav-link' }
-}) }}
-```
 
