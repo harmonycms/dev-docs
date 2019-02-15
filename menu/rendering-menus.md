@@ -16,6 +16,8 @@ Currently, KnpMenu provide a default `knp_menu.html.twig` template who is used t
 
 The best way to render and customize the rendered menu would be to use the built-in functions provided by KnpMenuBundle itself. Here is an example on how to render a menu in a Bootstrap 4 theme:
 
+#### Using KnpMenu twig functions
+
 ```markup
 {% set menu = knp_menu_get('main_menu') %}
 {% do menu.setChildrenAttribute('class', 'navbar-nav ml-auto') %}
@@ -27,4 +29,15 @@ The best way to render and customize the rendered menu would be to use the built
 ```
 
 For more example, see the [official documentation](https://symfony.com/doc/master/bundles/KnpMenuBundle/index.html#rendering-menus).
+
+#### Using our menu\_render helper
+
+```text
+{{ menu_render('main_menu', {
+    'currentClass': 'active',
+    'childrenAttributes': { 'class': 'navbar-nav ml-auto' },
+    'attributes': { 'class': 'nav-item' },
+    'linkAttributes': { 'class': 'nav-link' }
+}) }}
+```
 
