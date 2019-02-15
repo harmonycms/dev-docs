@@ -1,14 +1,14 @@
 # Chapter 3. Create your first menu
 
-KNPMenuBundle provide multiple solutions to create menu easily as possible:
+KnpMenuBundle provide multiple solutions to create menu easily as possible:
 
 1. [Method a. The Easy Way](https://symfony.com/doc/master/bundles/KnpMenuBundle/index.html#method-a-the-easy-way-yay)
 2. [Method b. A menu builder as a service](https://symfony.com/doc/master/bundles/KnpMenuBundle/menu_builder_service.html)
 3. [Method c. A menu as a service](https://symfony.com/doc/master/bundles/KnpMenuBundle/menu_service.html)
 
-HarmonyMenuBundle add an other way to create menu, with YAML configuration files.  
+HarmonyMenuBundle add an other way to create menu, with a YAML configuration files.  
 This bundle will automatically load menu declared in a file called `menu.yaml`.  
-This file can be located at `config/menu.yaml`or inside any bundles at `Resources/config/menu.yaml`.
+This file can be located at `config/menu.yaml`, inside any bundles at `Resources/config/menu.yaml` or inside any extensions \(_modules_ or _plugins_\) at `Resources/config/menu.yaml`.
 
 ## Create new menu
 
