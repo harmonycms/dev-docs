@@ -29,7 +29,15 @@ main_menu:
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+{% hint style="warning" %}
+When creating menu item, please **DO NOT** add HTML attributes \(e.g. `class`, `id`, ...\) using the options **attributes**, **linkAttributes**, **childrenAttributes** or **labelAttributes**.  
+This values must me defined inside each themes, when rendering the menu.  
+See: [Chapter 4. Rendering menus](rendering-menus.md)
+{% endhint %}
+
 ## Configuration reference
+
+Here is the full reference of available configuration keys you can use to define your menu:
 
 {% code-tabs %}
 {% code-tabs-item title="config/menu.yaml" %}
