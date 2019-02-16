@@ -16,4 +16,5 @@ Source code can be found here: [https://github.com/harmonycms/acme-theme](https:
 * [Chapter 3. Asset management](asset-management.md)
 * [Chapter 4. Settings](chapter-4.-settings.md)
 * [Chapter 5. Menus](menus.md)
+* [Chapter 6. Translations](translations.md)
 

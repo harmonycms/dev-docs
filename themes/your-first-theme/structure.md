@@ -16,7 +16,7 @@ harmony
      ├── HarmonyAcmeTheme.php
      ├── settings.yaml
      ├── translations
-     │   └── messages.en.yml
+     │   └── messages.en.xlf
      └── views
          ├── index.html.twig
          └── template.html.twig
