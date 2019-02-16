@@ -1,4 +1,4 @@
-# Chapter 2. KnpMenuBundle configuration
+# Chapter 1. KnpMenuBundle configuration
 
 KnpMenuBundle came with a sensible default configuration, which is listed below.  
 You can define these options if you need to change them:

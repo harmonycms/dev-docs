@@ -1,4 +1,4 @@
-# Chapter 3. Create your first menu
+# Chapter 2. Create your first menu
 
 KnpMenuBundle provide multiple solutions to create menu easily as possible:
 

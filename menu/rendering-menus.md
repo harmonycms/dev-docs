@@ -1,4 +1,4 @@
-# Chapter 4. Rendering menus
+# Chapter 3. Rendering menus
 
 Once you've setup your menu, rendering it is easy. If you followed the [chapter 3](create-your-first-menu.md#create-new-menu) to create a simple menu called `main_menu`, you can render it using the next twig function:
 

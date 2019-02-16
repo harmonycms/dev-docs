@@ -10,8 +10,7 @@ Menus are powered and managed by [KnpMenuBundle](https://packagist.org/packages/
 
 ## Learn more
 
-* [Chapter 1. Quick start](quick-start.md)
-* [Chapter 2. KnpMenuBundle configuration](knpmenubundle-configuration.md)
-* [Chapter 3. Create your first menu](create-your-first-menu.md)
-* [Chapter 4. Rendering menus](rendering-menus.md)
+* [Chapter 1. KnpMenuBundle configuration](knpmenubundle-configuration.md)
+* [Chapter 2. Create your first menu](create-your-first-menu.md)
+* [Chapter 3. Rendering menus](rendering-menus.md)
 
