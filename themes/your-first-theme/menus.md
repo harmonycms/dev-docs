@@ -1,4 +1,4 @@
-# Chapter 5. Menus
+# Chapter 6. Menus
 
 In HarmonyCMS, we separate the business logic \(_menu content_\) and menu rendering \(_how to display menu_\).  
 When you are creating your theme, you'll need to display at some places a navigation menu, a sidebar menu, ... These menus are rendered directly in your theme views but the user who will use your theme does not have to use them all.

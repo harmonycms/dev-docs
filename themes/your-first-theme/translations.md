@@ -1,4 +1,4 @@
-# Chapter 6. Translations
+# Chapter 7. Translations
 
 Theme's translations are managed the same way they are for whole site.  
 The Translation component provided by Symfony is used to internationalize your theme.
