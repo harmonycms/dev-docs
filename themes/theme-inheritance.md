@@ -33,16 +33,8 @@ use Harmony\Theme\AcmeTheme\HarmonyAcmeTheme;
  */
 class HarmonyChildTheme extends Theme
 {
-
-    /**
-     * Get parent theme (FQDN class).
-     *
-     * @return string
-     */
-    public function getParent(): string
-    {
-        return HarmonyAcmeTheme::class;
-    }
+    /** Parent theme FQDN class */
+    const PARENT = HarmonyAcmeTheme::class;
 }
 ```
 {% endcode-tabs-item %}
