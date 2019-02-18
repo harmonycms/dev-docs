@@ -16,11 +16,17 @@ As indicated in the overview, a child theme inherits the look and feel of the pa
 
 ### Assets
 
-The ThemeBundle will check if an asset exists in the current \(child\) theme, in case it doesn't the bundle will check from the parent theme. In case of the asset does not exists in the parent theme, the current path entered in the `asset_theme` function.
+The ThemeBundle will check if any asset exists in the current \(child\) theme, in case it doesn't the bundle will check from the parent theme. In case of the asset does not exists in the parent theme, the current path entered in the `asset_theme` function.
 
 ### Templates
 
 ### Translations
+
+First of all, the ThemeBundle will try to load translations from the parent theme, if exists. It will after try to load translations from the current \(child\) theme.
+
+By doing that, you will be able to use translations from the parent theme in your current theme.  
+You will also be able to override translations in your child theme.  
+To do so, you just need to create the same translation filename with the same key to override.
 
 ### Settings
 
