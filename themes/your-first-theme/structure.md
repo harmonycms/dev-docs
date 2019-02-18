@@ -12,13 +12,14 @@ harmony
      │   ├── images
      │   ├── javascripts
      │   └── preview.jpg
+     ├── base.html.twig
      ├── composer.json
      ├── HarmonyAcmeTheme.php
+     ├── index.html.twig
      ├── settings.yaml
      ├── translations
      │   └── messages.en.xlf
-     └── views
-         ├── index.html.twig
-         └── template.html.twig
+         
+         
 ```
 
