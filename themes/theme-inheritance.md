@@ -12,6 +12,18 @@ All themes – excluding child themes – are considered parent themes.
 
 As indicated in the overview, a child theme inherits the look and feel of the parent theme and all of its components \(templates, assets, translations and settings\), but can be used to make modifications to any part of the theme. In this way, customizations are kept separate from the parent theme’s files. Using a child theme lets you upgrade the parent theme without affecting the customizations you’ve made to your site.
 
+## How inheritance works?
+
+### Assets
+
+The ThemeBundle will check if an asset exists in the current \(child\) theme, in case it doesn't the bundle will check from the parent theme. In case of the asset does not exists in the parent theme, the current path entered in the `asset_theme` function.
+
+### Templates
+
+### Translations
+
+### Settings
+
 ## How to create a child theme
 
 ### Specify a parent theme
