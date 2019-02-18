@@ -11,7 +11,7 @@
 | `kernel.debug` | `true` or `false` |  |
 | `kernel.cache_dir` | /var/cache/%env% | `getCacheDir()` |
 | `kernel.logs_dir` | /var/log | `getLogDir()` |
-| `kernel.bundles` |  |  |
+| `kernel.bundles` |  | `getBundles()` |
 | `kernel.bundles_metadata` |  |  |
 | `kernel.charset` | UTF-8 | `getCharset()` |
 | `kernel.container_class` |  |  |
