@@ -69,3 +69,13 @@ class HarmonyChildTheme extends Theme
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+### Create template files who extends parent theme
+
+{% code-tabs %}
+{% code-tabs-item title="themes/harmony/child-theme/index.html.twig" %}
+```markup
+{% extends '@HarmonyAcmeTheme/index.html.twig' %}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
