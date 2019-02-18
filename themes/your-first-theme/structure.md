@@ -18,6 +18,6 @@ harmony
      ├── index.html.twig
      ├── settings.yaml
      └── translations
-          └── messages.en.xlf
+          └── acme-theme.en.xlf
 ```
 
