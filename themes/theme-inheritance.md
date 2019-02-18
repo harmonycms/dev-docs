@@ -20,6 +20,13 @@ The ThemeBundle will check if any asset exists in the current \(child\) theme, i
 
 ### Templates
 
+Template inheritance is managed natively by Twig itself.  
+To learn more about template inheritance, check this documentation: [How to Organize Your Twig Templates Using Inheritance](https://symfony.com/doc/current/templating/inheritance.html)
+
+{% hint style="warning" %}
+Template inheritance works only if the parent and child themes use [Twig namespaces](https://symfony.com/doc/current/templating/namespaced_paths.html)
+{% endhint %}
+
 ### Translations
 
 First of all, the ThemeBundle will try to load translations from the parent theme, if exists. It will after try to load translations from the current \(child\) theme.
