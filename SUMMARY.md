@@ -13,7 +13,7 @@
     * [Chapter 1. Installation](bundles/themebundle/installation.md)
   * [WebProfilerBundle](bundles/webprofilerbundle/README.md)
     * [Chapter 1. Installation](bundles/webprofilerbundle/installation.md)
-* [Extensions](extensions.md)
+* [The Extension system](extensions.md)
 * [The Theme System](themes/README.md)
   * [Your first theme](themes/your-first-theme/README.md)
     * [Chapter 1. Structure](themes/your-first-theme/structure.md)

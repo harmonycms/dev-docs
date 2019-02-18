@@ -3,6 +3,6 @@
 * [Bundles](bundles/)
 * [The Theme System](themes/)
 * [Menu](menu/)
-* [Settings](settings/)
+* [The Setting system](extensions.md)
 * [Kernel configuration](kernel-configuration.md)
 

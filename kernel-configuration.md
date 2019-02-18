@@ -28,6 +28,8 @@ To get the complete, updated list and description of all available parameters pr
 | `kernel.app_version` | 1.0 |  |
 | `kernel.theme_dir` | /themes | `getThemeDir()` |
 | `kernel.themes` | ThemeInterface\[\] | `getThemes()` |
+| `kernel.extension_dir` | /extensions | `getExtensionDir()` |
+| `kernel.extensions` | ExtensionInterface\[\] | `getExtensions()` |
 
 {% hint style="info" %}
 HarmonyCMS provide an [abstract kernel class](https://github.com/harmonycms/core-bundle/blob/master/Component/HttpKernel/AbstractKernel.php) who need to be extended from by your application Kernel class.  

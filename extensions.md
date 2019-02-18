@@ -1,2 +1,2 @@
-# Extensions
+# The Extension system
 
