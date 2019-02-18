@@ -37,6 +37,10 @@ To do so, you just need to create the same translation filename with the same ke
 
 ### Settings
 
+{% hint style="danger" %}
+Currently not supported!
+{% endhint %}
+
 ## How to create a child theme
 
 ### Specify a parent theme
