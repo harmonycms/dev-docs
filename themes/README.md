@@ -1,4 +1,4 @@
-# The Theme System
+# The Theme system
 
 Like defined in every CMS, HarmonyCMS provide to the end user a theming management system. Themes are supported by [LiipThemeBundle](https://packagist.org/packages/liip/theme-bundle). This bundle provides to the end user the possibility to use a theme to change the look of his website.  
 On top of this bundle, [HarmonyThemeBundle](https://packagist.org/packages/harmony/theme-bundle) has been developed to pre-define the path where themes are stored, list available themes and set a current active theme. Coupled with [HarmonyAdminBundle](https://marketplace.harmonycms.net/package/harmony-admin-bundle), it's now easy for the end user to change the current active theme and even change settings for the activated theme.

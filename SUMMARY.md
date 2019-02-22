@@ -17,7 +17,7 @@
   * [Component](extensions/component.md)
   * [Module](extensions/module.md)
   * [Plugin](extensions/plugin.md)
-* [The Theme System](themes/README.md)
+* [The Theme system](themes/README.md)
   * [Your first theme](themes/your-first-theme/README.md)
     * [Chapter 1. Structure](themes/your-first-theme/structure.md)
     * [Chapter 2. The main files](themes/your-first-theme/chapter-2.-the-main-files.md)
