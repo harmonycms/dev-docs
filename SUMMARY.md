@@ -33,7 +33,7 @@
   * [Chapter 1. KnpMenuBundle configuration](menu/knpmenubundle-configuration.md)
   * [Chapter 2. Create your first menu](menu/create-your-first-menu.md)
   * [Chapter 3. Rendering menus](menu/rendering-menus.md)
-* [Settings](settings/README.md)
+* [The Settings system](settings/README.md)
   * [Chapter 1. Quick start](settings/quick-start.md)
   * [Chapter 2. Console command](settings/console-command.md)
   * [Chapter 3. Reference](settings/reference.md)
