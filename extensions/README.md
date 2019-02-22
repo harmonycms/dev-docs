@@ -28,3 +28,9 @@ By a default HarmonyCMS application use HarmonyFlex tool. Extensions are enabled
 
 ## Decoupled in sub-extensions
 
+### Component
+
+### Module
+
+### Plugin
+
