@@ -29,7 +29,7 @@ return [
 {% endcode-tabs %}
 
 {% hint style="info" %}
-By a default HarmonyCMS application use HarmonyFlex tool, themes are enabled/disabled automatically for you when installing/removing them, so you don't need to look at or edit this themes.php file.
+By a default HarmonyCMS application use HarmonyFlex tool. Themes are enabled/disabled automatically for you when installing/removing them, so you don't need to look at or edit this **themes.php** file.
 {% endhint %}
 
 ## What's define a theme?
