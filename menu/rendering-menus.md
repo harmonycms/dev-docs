@@ -7,7 +7,7 @@ Once you've setup your menu, rendering it is easy. If you followed the [chapter 
 ```
 
 {% hint style="warning" %}
-This twig function is an helper provided by the HarmonyMenuBundle.  
+This twig function is a helper provided by the HarmonyMenuBundle.  
 It will not return an exception if the menu does not exists compared to `knp_menu_render()`
 {% endhint %}
 
