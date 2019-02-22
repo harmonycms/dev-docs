@@ -27,3 +27,5 @@ return [
 By a default HarmonyCMS application use HarmonyFlex tool. Extensions are enabled/disabled automatically for you when installing/removing them, so you don't need to look at or edit this **extensions.php** file.
 {% endhint %}
 
+## Decoupled in sub-extensions
+
