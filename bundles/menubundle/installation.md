@@ -8,3 +8,7 @@ composer require harmony/menu-bundle
 
 > Alternatively, you can clone the [https://github.com/harmonycms/menu-bundle](https://github.com/harmonycms/menu-bundle) repository.
 
+{% hint style="info" %}
+This bundle is automatically installed with any HarmonyCMS project and required by HarmonyCoreBundle.
+{% endhint %}
+
