@@ -5,7 +5,7 @@ The HarmonyMenuBundle is on top of the [KnpMenuBundle](https://packagist.org/pac
 * Configure menus in YAML configuration files,
 * Store menu items in a database.
 
-Features are based on [ConfigKnpMenuBundle](https://packagist.org/packages/jbouzekri/config-knp-menu-bundle) and [SeraphMenuBundle](https://packagist.org/packages/seraph/menu-bundle-2.0) bundles.
+Features are based on [ConfigKnpMenuBundle](https://packagist.org/packages/jbouzekri/config-knp-menu-bundle) and [KtwDatabaseMenuBundle](https://packagist.org/packages/kevintweber/ktw-database-menu-bundle) bundles.
 
 ## Learn more
 
