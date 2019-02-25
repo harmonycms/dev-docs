@@ -16,5 +16,9 @@ However, to simplify the creation and storage of menus, HarmonyCMS is shipped by
 The configuration provider is shipped by default by the HarmonyMenuBundle.  
 This provider allow developers to create easily as possible menus from configuration YAML files.
 
+The documentation on how to use this provider is described in the [Chapter 2. Create your first menu](create-your-first-menu.md).
+
 ## Database ORM provider
+
+This provider is only shipped with the HarmonyMenuManager module.
 
