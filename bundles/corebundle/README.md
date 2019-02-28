@@ -14,4 +14,5 @@ The CoreBundle provide main features to HarmonyCMS, such as:
 ## Learn more
 
 * [Chapter 1. Installation](installation.md)
+* [Chapter 2. Custom form types](custom-form-types.md)
 
