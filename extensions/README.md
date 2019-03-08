@@ -31,9 +31,15 @@ By a default HarmonyCMS application use HarmonyFlex tool. Extensions are enabled
 
 Like explain in the previous chapter, extensions divided in 3 sub-types. Each extension's type are made to representing and to be used in a specific place.
 
-### Component
+### Components
 
-### Module
+Components can be used in the front and admin areas. They can only be embedded by add-ons \(plugins, modules or themes\). However components cannot define any routes. A component must be parts of a specific type \(WYSIWYG, Carousel, …\).
 
-### Plugin
+### Modules
+
+Modules are only made to add new features from the admin area. They can embed components and can define routes, compilers, … like bundles. They also can add entries in the admin menu.
+
+### Plugins
+
+Plugins are like Symfony Bundles, they can do the exact same things. They will be render views in the front \(theme\), define routes and embedded components. They also can have an admin interface to manage them and can add items from admin and main menus.
 
