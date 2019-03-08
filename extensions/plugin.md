@@ -1,4 +1,4 @@
-# Plugin
+# The Plugin system
 
 ### Doctrine Migrations
 

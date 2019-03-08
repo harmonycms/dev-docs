@@ -1,2 +1,2 @@
-# Component
+# The Component system
 
