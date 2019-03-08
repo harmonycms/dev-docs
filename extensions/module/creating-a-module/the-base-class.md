@@ -1,0 +1,39 @@
+# Chapter 2. The base class
+
+This section creates and enables a new module to show there are only a few steps required. The new module is called **AcmeTestModule**, where the `Acme` portion is just a dummy name that should be replaced by some "vendor" name that represents you or your organization \(e.g. ABCTestModule for some company named `ABC`\).
+
+Let's start by creating file called `AcmeTestModule.php`at the root of your module project:
+
+{% code-tabs %}
+{% code-tabs-item title="AcmeTestModule.php" %}
+```php
+namespace Acme\Extension\TestModule;
+
+use Harmony\Sdk\Extension\Module;
+
+class AcmeTestModule extends Module
+{
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+{% hint style="info" %}
+The name `AcmeTestModule` follows the same standards has [Bundle naming conventions](https://symfony.com/doc/master/bundles/best_practices.html#bundles-naming-conventions).
+{% endhint %}
+
+This empty class is the only piece you need to create the new module. Though commonly empty, this class is powerful and can be used to customize the behavior of the module. When installed, the module will automatically be enabled in the next file:
+
+{% code-tabs %}
+{% code-tabs-item title="config/extensions.php" %}
+```php
+return [
+    // ...
+    Acme\Extension\TestModule\AcmeTestModule::class => ['all' => true],
+];
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+And while it doesn't do anything yet, **AcmeTestModule** is now ready to be used.
+
