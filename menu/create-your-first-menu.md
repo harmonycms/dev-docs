@@ -29,6 +29,10 @@ main_menu:
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+{% hint style="info" %}
+Default main menu `main_menu` is provided by default by the recipe of `harmony/menu-bundle` bundle.
+{% endhint %}
+
 {% hint style="warning" %}
 When creating menu item, please **DO NOT** add HTML attributes \(e.g. `class`, `id`, ...\) using the options **attributes**, **linkAttributes**, **childrenAttributes** or **labelAttributes**.  
 This values must me defined inside each themes, when rendering the menu.  
