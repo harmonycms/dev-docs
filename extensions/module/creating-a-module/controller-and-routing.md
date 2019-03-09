@@ -4,7 +4,17 @@
 
 ## Routing
 
-Such as Symfony, routing is never automatically imported in HarmonyCMS extensions. If you want to include the routes from any module, then they must be manually imported from somewhere \(e.g. `Resources/config/routes.yaml`\).
+Such as Symfony, routing is never automatically imported in HarmonyCMS extensions. If you want to include the routes from any module, then they must be manually imported from somewhere \(e.g. `Resources/config/routes.yaml`\). To load routes from controller using annotations, use the next code example:
+
+{% code-tabs %}
+{% code-tabs-item title="Resources/config/routes.yaml" %}
+```yaml
+controllers:
+  resource: '../../Controller'
+  type: annotation
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 Like said before, modules are only available in the admin area. So the routes must be declared for admin area only. For that, you must load your file `routes.yaml` in a **Dependency Injection** class.
 
