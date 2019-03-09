@@ -1,4 +1,4 @@
-# Chapter 4. Menu configuration
+# Chapter 3. Menu configuration
 
 Unlike routing, menu configuration is automatically loaded for each modules. A menu is only able to add new entries to the admin menu.
 

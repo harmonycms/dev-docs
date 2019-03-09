@@ -1,13 +1,13 @@
-# Chapter 3. Controller and Routing
+# Chapter 2. Routing
 
 ## Controller
 
 ## Routing
 
-Such as Symfony, routing is never automatically imported in HarmonyCMS extensions. If you want to include the routes from any module, then they must be manually imported from somewhere \(e.g. `Resources/config/routes.yaml`\). To load routes from controller using annotations, use the next code example:
+Such as Symfony, routing is never automatically imported in HarmonyCMS extensions. If you want to include the routes from any module, then they must be manually imported from somewhere \(e.g. `Resources/config/routing.yaml`\). To load routes from controller using annotations, use the next code example:
 
 {% code-tabs %}
-{% code-tabs-item title="Resources/config/routes.yaml" %}
+{% code-tabs-item title="Resources/config/routing.yaml" %}
 ```yaml
 controllers:
   resource: '../../Controller'
@@ -16,7 +16,7 @@ controllers:
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-Like said before, modules are only available in the admin area. So the routes must be declared for admin area only. For that, you must load your file `routes.yaml` in a **Dependency Injection** class.
+Like said before, modules are only available in the admin area. So the routes must be declared for admin area only. For that, you must load your file `routing.yaml` in a **Dependency Injection** class.
 
 To do that, create a file called `AcmeTestExtension.php` in the **DependencyInjection** directory, and add the next code inside:
 
@@ -43,7 +43,7 @@ class AcmeTestExtension extends Extension
     {
         $routeImporter = new RouteImporter($container);
         $routeImporter->addObjectResource($this);
-        $routeImporter->import('@AcmeTestModule/Resources/config/routes.yaml', 'admin');
+        $routeImporter->import('@AcmeTestModule/Resources/config/routing.yaml', 'admin');
     }
 }
 ```

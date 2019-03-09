@@ -1,4 +1,4 @@
-# Chapter 2. The base class
+# Chapter 1. The base class
 
 This section creates and enables a new module to show there are only a few steps required. The new module is called **AcmeTestModule**, where the `Acme` portion is just a dummy name that should be replaced by some "vendor" name that represents you or your organization \(e.g. ABCTestModule for some company named `ABC`\).
 
