@@ -13,6 +13,7 @@
     * [Chapter 1. Installation](bundles/menubundle/installation.md)
   * [ThemeBundle](bundles/themebundle/README.md)
     * [Chapter 1. Installation](bundles/themebundle/installation.md)
+    * [Chapter 2. Troubleshooting](bundles/themebundle/troubleshooting.md)
   * [WebProfilerBundle](bundles/webprofilerbundle/README.md)
     * [Chapter 1. Installation](bundles/webprofilerbundle/installation.md)
 * [The Extension system](extensions/README.md)

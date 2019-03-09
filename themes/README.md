@@ -50,4 +50,5 @@ Here is the list of what a theme must and can contains:
 * [Your first theme](your-first-theme/)
 * [Theme inheritance](theme-inheritance.md)
 * [Theme configuration reference](theme-configuration-reference.md)
+* [Troubleshooting](../bundles/themebundle/troubleshooting.md)
 
