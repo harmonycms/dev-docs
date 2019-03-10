@@ -11,10 +11,16 @@ admin_menu:
   tree:
     acme_test:
       label: 'Acme test'
+      extras: { icon: 'fab fa-font-awesome' }
       route: 'acme_test_module_index'
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+{% hint style="info" %}
+An icon can be added for each menu item, like in the above example.  
+You should use icons provided by the **Font Awesome** library and available at the next url: [https://fontawesome.com/icons](https://fontawesome.com/icons?d=gallery)
+{% endhint %}
 
 {% hint style="info" %}
 For more information on how to configure a menu, see the [Menu Configuration reference](../../../menu/create-your-first-menu.md#configuration-reference).
