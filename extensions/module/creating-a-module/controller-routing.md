@@ -1,6 +1,58 @@
-# Chapter 2. Routing
+# Chapter 2. Controller & Routing
 
 ## Controller
+
+A controller is a PHP function you create that reads information from the `Request`object and creates and returns a `Response` object. To be able to add some "page" to the admin interface, you will need to create a controller with some actions, like:
+
+{% code-tabs %}
+{% code-tabs-item title="Controller/AcmeTestController.php" %}
+```php
+namespace Acme\Extension\TestModule\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Routing\Annotation\Route;
+
+/**
+ * Class AcmeTestController
+ * @Route("/acme-test", name="acme_test_module_")
+ *
+ * @package Acme\Extension\TestModule\Controller
+ */
+class AcmeTestController extends AbstractController
+{
+
+    /**
+     * @Route("/", name="index")
+     * @return Response
+     */
+    public function index(): Response
+    {
+        // ...
+    }
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+In this previous controller, note the `@Route("/acme-test", name="acme_test_module_")` annotation.  
+This annotation define a route **path** and **name** prefixes who need to be unique for your module.
+
+{% hint style="info" %}
+By convention, the route **path** and route **name** must reflect the module's name.
+{% endhint %}
+
+### Twig namespace
+
+Usually, when you refer to a template, you'll use the relative path from the main `Resources/views` directory at the root of your module.
+
+However, to be able to load template files from your controller in your module, you will need to use the Twig namespace annotation. But don't worry, HarmonyExtensionBundle will register each modulesas a new Twig namespace for you!
+
+The Twig namespace is equivalent to the base module class, here **AcmeTestModule** but, you must prefix the `@` character when using it. So to render a template in your controller, you should write codes like:
+
+```php
+return $this->render('@AcmeTestModule/index.html.twig');
+```
 
 ## Routing
 

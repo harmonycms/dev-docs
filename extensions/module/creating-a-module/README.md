@@ -9,7 +9,9 @@ Modules are identical to Symfony Bundles. If you are not familiarized with Bundl
 In this section, you will find information specifics to HarmonyCMS Modules.
 
 * [Chapter 1. The base class](the-base-class.md)
-* [Chapter 2. Routing](routing.md)
+* [Chapter 2. Controller & Routing](controller-routing.md)
 * [Chapter 3. Menu configuration](menu-configuration.md)
 * [Chapter 4. Doctrine](doctrine.md)
+
+
 
