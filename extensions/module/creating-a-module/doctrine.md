@@ -37,6 +37,7 @@ To do that, you will need to add some code to your **AcmeTestExtension** class, 
 ```php
 namespace Acme\Extension\TestModule\DependencyInjection;
 
+use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Extension\PrependExtensionInterface;
