@@ -4,7 +4,7 @@
 * [Bundles](bundles/README.md)
   * [AdminBundle](bundles/adminbundle/README.md)
     * [Chapter 1. Installation](bundles/adminbundle/installation.md)
-    * [Chapter 2. Change path for admin interface](bundles/adminbundle/change-path-for-admin-interface.md)
+    * [Chapter 2. Customization](bundles/adminbundle/customization.md)
   * [CoreBundle](bundles/corebundle/README.md)
     * [Chapter 1. Installation](bundles/corebundle/installation.md)
     * [Chapter 2. Custom form types](bundles/corebundle/custom-form-types.md)

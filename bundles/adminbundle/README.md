@@ -20,5 +20,5 @@ This bundle provide an admin interface, forked from [EasyAdminBundle](https://pa
 ## Learn more
 
 * [Chapter 1. Installation](installation.md)
-* [Chapter 2. Change path for admin interface](change-path-for-admin-interface.md)
+* [Chapter 2. Customization](customization.md)
 

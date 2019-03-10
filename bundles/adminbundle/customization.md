@@ -1,4 +1,6 @@
-# Chapter 2. Change path for admin interface
+# Chapter 2. Customization
+
+## Change path for admin interface
 
 By default, HarmonyCMS admin interface is accessible from the `/admin` path. This value is defined in the **prefix** option when loading the routes for HarmonyCMS.
 
