@@ -12,6 +12,7 @@ In this section, you will find information specifics to HarmonyCMS Modules.
 * [Chapter 2. Controller & Routing](controller-routing.md)
 * [Chapter 3. Menu configuration](menu-configuration.md)
 * [Chapter 4. Doctrine](doctrine.md)
+* [Chapter 5. Views](views.md)
 
 
 
