@@ -17,3 +17,8 @@ _admin:
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+## Customize content
+
+This bundle is shipped by default with the free version of [AdminCAST Bootstrap 4 Admin Template](http://admincast.com).  
+If you are currently developing an extension for HarmonyCMS and are designing some pages to match with the admin interface, you should check the [demo](http://admincast.com/admincast/preview/html/) version of the template to take some examples.
+
