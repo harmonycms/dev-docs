@@ -23,6 +23,7 @@
       * [Chapter 1. The base class](extensions/module/creating-a-module/the-base-class.md)
       * [Chapter 2. Routing](extensions/module/creating-a-module/routing.md)
       * [Chapter 3. Menu configuration](extensions/module/creating-a-module/menu-configuration.md)
+      * [Chapter 4. Doctrine](extensions/module/creating-a-module/doctrine.md)
   * [The Plugin system](extensions/plugin.md)
 * [The Theme system](themes/README.md)
   * [Your first theme](themes/your-first-theme/README.md)
