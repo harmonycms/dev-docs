@@ -3,7 +3,7 @@
 * [Bundles](bundles/)
 * [The Extension system](extensions/)
 * [The Theme system](themes/)
-* [Menu](menu/)
+* [The Menu system](bundles/menubundle/)
 * [The Setting system](extensions/)
 * [Kernel configuration](kernel-configuration.md)
 
