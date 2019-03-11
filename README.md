@@ -1,5 +1,11 @@
 # Welcome
 
+Welcome to the HarmonyCMS developer documentation site.
+
+{% hint style="warning" %}
+This documentation assume that you already have great knowledge about [Symfony framework](https://symfony.com/doc/current/index.html) and [Twig template engine](https://twig.symfony.com).
+{% endhint %}
+
 * [Bundles](bundles/)
 * [The Extension system](extensions/)
 * [The Theme system](themes/)
