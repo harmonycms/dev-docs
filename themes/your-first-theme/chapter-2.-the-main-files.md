@@ -44,7 +44,6 @@ Here is a simple example of main class for a theme:
 
 ```php
 <?php
-
 namespace App\Theme\AcmeTheme;
 
 use Harmony\Sdk\Theme\Theme;
@@ -55,4 +54,22 @@ class AppAcmeTheme extends Theme
     const DESCRIPTION = 'Acme starter theme';
 }
 ```
+
+## Activate the theme
+
+To be able to use the theme, you must activate it has the `default` theme for your website.  
+To do that, just create the file `config/packages/harmony_settings_manager.yaml` and set the theme name for the **theme** key, like:
+
+{% code-tabs %}
+{% code-tabs-item title="config/packages/harmony\_settings\_manager.yaml" %}
+```yaml
+harmony_settings_manager:
+  settings:
+    - name: theme
+      type: choice
+      data: 'AppAcmeTheme'
+      tags: ['theme']
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
