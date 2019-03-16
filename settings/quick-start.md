@@ -3,7 +3,7 @@
 The settings bundle allow you to register new settings fro your website. To do so add a file named `config/packages/settings_manager.yaml`. Here is an example:
 
 ```yaml
-helis_settings_manager:
+harmony_settings_manager:
     settings:
         - name: foo
           description: 'foo desc'
@@ -60,5 +60,5 @@ Here is the list of all available types allowed by the settings bundle. You can 
 | `time` | Symfony\Component\Form\Extension\Core\Type\TimeType |
 | `timezone` | Symfony\Component\Form\Extension\Core\Type\TimezoneType |
 | `url` | Symfony\Component\Form\Extension\Core\Type\UrlType |
-| `yaml` | Helis\SettingsManagerBundle\Form\Type\YamlType |
+| `yaml` | Harmony\Bundle\SettingsManagerBundle\Form\Type\YamlType |
 

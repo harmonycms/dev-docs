@@ -2,10 +2,10 @@
 
 ## Display raw configuration
 
-You can execute the next command to display the current raw configuration for the extension alias `helis_settings_manager`:
+You can execute the next command to display the current raw configuration for the extension alias `harmony_settings_manager`:
 
 ```bash
-php bin/console debug:config helis_settings_manager
+php bin/console debug:config harmony_settings_manager
 ```
 
 {% hint style="warning" %}
