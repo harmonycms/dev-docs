@@ -1,7 +1,7 @@
 # Chapter 5. Settings
 
 Theme's settings are managed the same way they are for whole site.  
-A custom provider for the [HelisSettingsManagerBundle](https://packagist.org/packages/helis/settings-manager-bundle) has been defined that automatically load settings from the current active theme.
+A custom provider for the [HarmonySettingsManagerBundle](https://marketplace.harmonycms.net/package/harmony-settings-manager-bundle) has been defined that automatically load settings from the current active theme.
 
 ## How to write settings for a theme?
 
