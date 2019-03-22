@@ -18,6 +18,7 @@
   * [UserBundle](bundles/userbundle/README.md)
     * [Chapter 1. Installation](bundles/userbundle/installation.md)
     * [Chapter 2. Configuration](bundles/userbundle/configuration.md)
+    * [Chapter 3. Security layer](bundles/userbundle/security-layer.md)
   * [WebProfilerBundle](bundles/webprofilerbundle/README.md)
     * [Chapter 1. Installation](bundles/webprofilerbundle/installation.md)
 * [The Extension system](extensions/README.md)
