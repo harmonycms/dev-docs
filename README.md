@@ -11,7 +11,7 @@ This documentation assume that you already have great knowledge about [Symfony f
 * [The Theme system](themes/)
 * [The Menu system](bundles/menubundle/)
 * [The Setting system](extensions/)
-* [The Database Layer](database-layer.md)
+* [The Database Layer](database-layer/)
 * [Kernel configuration](kernel-configuration.md)
 
 ## Harmony Free Community Support

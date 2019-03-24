@@ -1,10 +1,4 @@
-# The Database Layer
-
-The database layer in HarmonyCMS in managed by Doctrine itself.   
-Doctrine provides several PHP libraries primarily focused on database storage and object mapping.  
-It support SQL and No-SQL databases, such as: **MySQL**, **MariaDB**, **PostgreSQL**, **SQLite**, **MongoDB**, ...
-
-## Decoupled from any Object Mapper
+# Decoupled from object mapping
 
 One of the main idea of HarmonyCMS is to be fully decoupled from any object mapping system.  
 By doing that, HarmonyCMS is able to provide full support of **SQL** and **No-SQL** databases.
@@ -47,6 +41,4 @@ It will need to require `emulienfou/orm-pack` or `emulienfou/mongodb-pack` packa
   }
 }
 ```
-
-
 
