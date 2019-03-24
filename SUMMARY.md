@@ -52,5 +52,6 @@
   * [Chapter 1. Quick start](settings/quick-start.md)
   * [Chapter 2. Console command](settings/console-command.md)
   * [Chapter 3. Reference](settings/reference.md)
+* [The Database Layer](database-layer.md)
 * [Kernel configuration](kernel-configuration.md)
 

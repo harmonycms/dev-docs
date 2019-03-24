@@ -3,7 +3,7 @@
 Welcome to the HarmonyCMS developer documentation site.
 
 {% hint style="warning" %}
-This documentation assume that you already have great knowledge about [Symfony framework](https://symfony.com/doc/current/index.html) and [Twig template engine](https://twig.symfony.com).
+This documentation assume that you already have great knowledge about [Symfony framework](https://symfony.com/doc/current/index.html), [Doctrine](https://www.doctrine-project.org/) and [Twig template engine](https://twig.symfony.com).
 {% endhint %}
 
 * [Bundles](bundles/)
@@ -11,6 +11,7 @@ This documentation assume that you already have great knowledge about [Symfony f
 * [The Theme system](themes/)
 * [The Menu system](bundles/menubundle/)
 * [The Setting system](extensions/)
+* [The Database Layer](database-layer.md)
 * [Kernel configuration](kernel-configuration.md)
 
 ## Harmony Free Community Support
