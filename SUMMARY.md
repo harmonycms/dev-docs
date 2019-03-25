@@ -42,7 +42,6 @@
     * [Chapter 7. Translations](themes/your-first-theme/translations.md)
   * [Theme inheritance](themes/theme-inheritance.md)
   * [Theme configuration reference](themes/theme-configuration-reference.md)
-* [Translations](translations.md)
 * [The Menu system](menu/README.md)
   * [Chapter 1. KnpMenuBundle configuration](menu/knpmenubundle-configuration.md)
   * [Chapter 2. Create your first menu](menu/create-your-first-menu.md)
@@ -55,5 +54,7 @@
 * [The Database Layer](database-layer/README.md)
   * [Decoupled from object mapping](database-layer/decoupled-from-object-mapping.md)
   * [Enumeration type](database-layer/enumeration-type.md)
+* [Translations](translations.md)
+* [The Routing System](routing.md)
 * [Kernel configuration](kernel-configuration.md)
 

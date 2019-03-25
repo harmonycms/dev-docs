@@ -12,6 +12,7 @@ This documentation assume that you already have great knowledge about [Symfony f
 * [The Menu system](bundles/menubundle/)
 * [The Setting system](extensions/)
 * [The Database Layer](database-layer/)
+* [The Routing System](routing.md)
 * [Kernel configuration](kernel-configuration.md)
 
 ## Harmony Free Community Support
