@@ -13,19 +13,19 @@ You can use the `user:create` command to create a new user for your application.
 For example if you wanted to create a user with username `testuser`, with email `test@example.com` and password `p@ssword`, you would run the command as follows.
 
 ```bash
-php bin/console fos:user:create testuser test@example.com p@ssword
+php bin/console user:create testuser test@example.com p@ssword
 ```
 
 If any of the required arguments are not passed to the command, an interactive prompt will ask you to enter them. For example, if you ran the command as follows, then you would be prompted to enter the `email` and `password` for the user you want to create.
 
 ```bash
-php bin/console fos:user:create testuser
+php bin/console user:create testuser
 ```
 
 Specifying the `--super-admin` option will flag the user as a super admin when the user is created. A super admin has access to any part of your application. An example is provided below:
 
 ```bash
-php bin/console fos:user:create adminuser --super-admin
+php bin/console user:create adminuser --super-admin
 ```
 
 ## Promote a User
@@ -35,7 +35,7 @@ The `user:promote` command enables you to add a role to a user or make the user 
 If you would like to add a role to a user you simply pass the `username` of the user as the first argument to the command and the `role` to add to the user as the second.
 
 ```bash
-php bin/console fos:user:promote testuser ROLE_ADMIN
+php bin/console user:promote testuser ROLE_ADMIN
 ```
 
 {% hint style="danger" %}
