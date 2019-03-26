@@ -1,4 +1,4 @@
-# Chapter 4. Command Line Tools
+# Chapter 4. Command line tools
 
 This bundle provides a number of command line utilities to help manage HarmonyCMS users.  
 Commands are available for the following tasks:
