@@ -38,6 +38,12 @@ If you would like to add a role to a user you simply pass the `username` of the 
 php bin/console user:promote testuser ROLE_ADMIN
 ```
 
+You can promote a user to a super administrator by passing the `--super` option after specifying the `username`.
+
+```bash
+php bin/console user:promote testuser --super
+```
+
 {% hint style="danger" %}
 Changes will not be applied until the user **logs out** and back in again.
 {% endhint %}
