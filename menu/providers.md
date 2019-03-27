@@ -9,7 +9,7 @@ By default KnpMenu and KnpMenuBundle are shipped with multiple providers:
 * [BuilderServiceProvider](https://github.com/KnpLabs/KnpMenuBundle/blob/master/src/Provider/BuilderServiceProvider.php) This provider uses methods of services to build menus.
 * [ContainerAwareProvider](https://github.com/KnpLabs/KnpMenuBundle/blob/master/src/Provider/ContainerAwareProvider.php)
 
-However, to simplify the creation and storage of menus, HarmonyCMS is shipped by default with one more provider: **The Configuration provider**.
+However, to simplify the creation and storage of menus, HarmonyCMS is shipped by default with one more provider: [Configuration provider](providers.md#configuration-provider).
 
 ## Configuration provider
 
@@ -21,4 +21,6 @@ The documentation on how to use this provider is described in the [Chapter 2. Cr
 ## Database ORM provider
 
 This provider is only shipped with the HarmonyMenuManager module.
+
+## Database ODM provider
 
