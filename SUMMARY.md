@@ -26,7 +26,7 @@
   * [The Component system](extensions/component.md)
   * [The Module system](extensions/module/README.md)
     * [Creating a module](extensions/module/creating-a-module/README.md)
-      * [Chapter 1. The base class](extensions/module/creating-a-module/the-base-class.md)
+      * [Chapter 1. The main files](extensions/module/creating-a-module/main-files.md)
       * [Chapter 2. Controller & Routing](extensions/module/creating-a-module/controller-routing.md)
       * [Chapter 3. Menu configuration](extensions/module/creating-a-module/menu-configuration.md)
       * [Chapter 4. Doctrine](extensions/module/creating-a-module/doctrine.md)
