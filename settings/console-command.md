@@ -1,4 +1,4 @@
-# Chapter 2. Console command
+# Chapter 4. Console command
 
 ## Display raw configuration
 

@@ -12,6 +12,11 @@ If you which to enable it, follow the instructions provided by the bundle.
 ## Learn more
 
 * [Chapter 1. Quick start](quick-start.md)
-* [Chapter 2. Console command](console-command.md)
-* [Chapter 3. Reference](reference.md)
+* [Chapter 2. Usage](usage.md)
+* Chapter 3. Settings everywhere
+* [Chapter 4. Console command](console-command.md)
+* [Chapter 5. Providers](providers.md)
+* [Chapter 6. Reference](reference.md)
+
+
 
