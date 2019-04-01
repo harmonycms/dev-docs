@@ -1,4 +1,4 @@
-# Chapter 5. Providers
+# Chapter 1. Providers
 
 Settings can be pulled from multiple sources. Currently, the bundle comes with 5 settings providers. They can be configured and prioritized. **If a setting with the same name will come from &gt;1 providers, setting from provider with higher priority will override settings from lower priority providers**.
 

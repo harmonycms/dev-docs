@@ -15,8 +15,7 @@ If you which to enable it, follow the instructions provided by the bundle.
 * [Chapter 2. Usage](usage.md)
 * Chapter 3. Settings everywhere
 * [Chapter 4. Console command](console-command.md)
-* [Chapter 5. Providers](providers.md)
-* [Chapter 6. Reference](reference.md)
+* [Chapter 5. Reference](reference.md)
 
 
 
