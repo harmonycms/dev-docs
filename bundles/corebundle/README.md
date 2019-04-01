@@ -9,7 +9,8 @@ The CoreBundle provide main features to HarmonyCMS, such as:
 * User management,
 * Menu management,
 * Setting management,
-* Routing autowiring
+* Routing autowiring \(powered by [RollerworksRouteAutowiringBundle](https://packagist.org/packages/rollerworks/route-autowiring-bundle)\)
+* Dynamic routing \(powered by [CmfRoutingBundle](https://packagist.org/packages/symfony-cmf/routing-bundle)\)
 
 ## Learn more
 
