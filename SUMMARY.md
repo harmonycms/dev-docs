@@ -52,6 +52,7 @@
 * [The Settings system](settings/README.md)
   * [Chapter 1. Quick start](settings/quick-start.md)
   * [Chapter 2. Usage](settings/usage.md)
+  * [Chapter 3. Settings everywhere](settings/settings-everywhere.md)
   * [Chapter 4. Console command](settings/console-command.md)
   * [Chapter 5. Reference](settings/reference.md)
 * [The Database Layer](database-layer/README.md)
