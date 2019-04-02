@@ -31,3 +31,7 @@ This setting configuration will add a new setting field `test` in the general se
 
 ![](../.gitbook/assets/deepinscreenshot_20190402101057.jpg)
 
+{% hint style="warning" %}
+However, be very careful with that. When adding a setting to the `default` domain and `general` tag, you could override the default settings and the ones provided by extensions, themes or bundles.
+{% endhint %}
+
