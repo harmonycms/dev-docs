@@ -7,7 +7,7 @@ Some of them are more important to developers who work with HarmonyCMS than othe
 * [CoreBundle](corebundle/) \(_Core bundle_\)
 * [ExtensionBundle](extensionbundle.md)  \(Extensions management bundle\)
 * [MenuBundle](menubundle/) \(_Menu implementation using KnpMenuBundle_\)
-* RoutingBundle \(_Integrate the CMF Routing component, with support of MongoDB_\)
+* [RoutingBundle](routingbundle.md) \(_Integrate the CMF Routing component, with support of MongoDB_\)
 * [SettingsManagerBundle](settingsmanagerbundle/) \(Settings/Parameters management system\)
 * [ThemeBundle](themebundle/) \(_Theme management system_\)
 * [UserBundle](userbundle/) \(User management system\)
