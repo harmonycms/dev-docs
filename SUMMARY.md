@@ -11,6 +11,7 @@
   * [ExtensionBundle](bundles/extensionbundle.md)
   * [MenuBundle](bundles/menubundle/README.md)
     * [Chapter 1. Installation](bundles/menubundle/installation.md)
+  * [RoutingBundle](bundles/routingbundle.md)
   * [SettingsManagerBundle](bundles/settingsmanagerbundle/README.md)
     * [Chapter 1. Providers](bundles/settingsmanagerbundle/providers.md)
   * [ThemeBundle](bundles/themebundle/README.md)
