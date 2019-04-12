@@ -60,6 +60,7 @@
   * [Decoupled from object mapping](database-layer/decoupled-from-object-mapping.md)
   * [Enumeration type](database-layer/enumeration-type.md)
 * [Translations](translations.md)
-* [The Routing System](routing.md)
+* [The Routing System](routing/README.md)
+  * [Chapter 1. Providers](routing/chapter-1.-providers.md)
 * [Kernel configuration](kernel-configuration.md)
 
