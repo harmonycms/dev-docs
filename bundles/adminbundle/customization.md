@@ -17,6 +17,10 @@ _admin:
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+{% hint style="danger" %}
+Be very careful, some bundles, extensions or themes use FOSJSRouting who provide a default `fos_js_routes.json` file including the admin prefix. If you have to change the admin prefix, you will probably need to dump the routing js configuration.
+{% endhint %}
+
 ## Customize content
 
 This bundle is shipped by default with the free version of [AdminCAST Bootstrap 4 Admin Template](http://admincast.com).  
