@@ -1,6 +1,6 @@
 # The Settings system
 
-Settings system, allowing application users to edit some configuration and storing it in database is a common need in a variety of projects.
+> Settings system, allowing application users to edit some configuration and storing it in database is a common need in a variety of projects.
 
 Settings are managed by [HarmonySettingManagerBundle](https://marketplace.harmonycms.net/package/harmony-settings-manager-bundle).
 

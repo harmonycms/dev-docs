@@ -1,7 +1,7 @@
 # The Extension system
 
-HarmonyCMS embedded a top level extensibility principe represented the same way has Symfony Bundle but who are made to do and be used in specific cases.  
-The extension system allow to the end user to easily extend the functionality of the CMS by plugs in to the CMS core without requiring modifications to the original files.
+> HarmonyCMS embedded a top level extensibility principe represented the same way has Symfony Bundle but who are made to do and be used in specific cases.  
+> The extension system allow to the end user to easily extend the functionality of the CMS by plugs in to the CMS core without requiring modifications to the original files.
 
 The extensibility system design in decoupled in 3 distinct sub-extensions who can be developed and used in certains use-cases.
 

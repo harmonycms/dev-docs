@@ -1,10 +1,6 @@
----
-description: Administration interface for HarmonyCMS
----
-
 # AdminBundle
 
-HarmonyCMS do not provide by default an admin interface. If the end user is intent to use one, it will need to bind this package \(bundle\) [harmony/admin-bundle](https://marketplace.harmonycms.net/package/harmony-admin-bundle) to his project directly from the HarmonyPlatform Marketplace.
+> HarmonyCMS do not provide by default an admin interface. If the end user is intent to use one, it will need to bind this package \(bundle\) [harmony/admin-bundle](https://marketplace.harmonycms.net/package/harmony-admin-bundle) to his project directly from the HarmonyPlatform Marketplace.
 
 This bundle provide an admin interface, forked from [EasyAdminBundle](https://packagist.org/packages/easycorp/easyadmin-bundle), updated with new features such as:
 

@@ -1,7 +1,3 @@
----
-description: Core bundle of HarmonyCMS
----
-
 # CoreBundle
 
 The CoreBundle provide main features to HarmonyCMS, such as:
