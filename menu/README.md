@@ -12,6 +12,8 @@ Menus are powered and managed by [KnpMenuBundle](https://packagist.org/packages/
 
 * [Chapter 1. KnpMenuBundle configuration](knpmenubundle-configuration.md)
 * [Chapter 2. Create your first menu](create-your-first-menu.md)
+  * [Create new menu](create-your-first-menu.md#create-new-menu)
+  * [Configuration reference](create-your-first-menu.md#configuration-reference)
 * [Chapter 3. Rendering menus](rendering-menus.md)
 * [Chapter 4. Providers](providers.md)
 
