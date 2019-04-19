@@ -11,7 +11,8 @@
   * [ExtensionBundle](bundles/extensionbundle.md)
   * [MenuBundle](bundles/menubundle/README.md)
     * [Chapter 1. Installation](bundles/menubundle/installation.md)
-  * [RoutingBundle](bundles/routingbundle.md)
+  * [RoutingBundle](bundles/routingbundle/README.md)
+    * [Chapter 1. Providers](bundles/routingbundle/chapter-1.-providers.md)
   * [SettingsManagerBundle](bundles/settingsmanagerbundle/README.md)
     * [Chapter 1. Providers](bundles/settingsmanagerbundle/providers.md)
   * [ThemeBundle](bundles/themebundle/README.md)
@@ -60,7 +61,6 @@
   * [Decoupled from object mapping](database-layer/decoupled-from-object-mapping.md)
   * [Enumeration type](database-layer/enumeration-type.md)
 * [Translations](translations.md)
-* [The Routing System](routing/README.md)
-  * [Chapter 1. Providers](routing/chapter-1.-providers.md)
+* [The Routing System](routing.md)
 * [Kernel configuration](kernel-configuration.md)
 
