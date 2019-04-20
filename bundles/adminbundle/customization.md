@@ -26,3 +26,11 @@ Be very careful, some bundles, extensions or themes use FOSJSRouting who provide
 This bundle is shipped by default with the free version of [AdminCAST Bootstrap 4 Admin Template](http://admincast.com).  
 If you are currently developing an extension for HarmonyCMS and are designing some pages to match with the admin interface, you should check the [demo](http://admincast.com/admincast/preview/html/) version of the template to take some examples.
 
+## Apply admin interface form theme
+
+To use the default form theme provided by the admin interface, you need to use the next code in your template file \(for extensions\):
+
+```markup
+{% form_theme form with harmony_admin_config('design.form_theme') %}
+```
+
