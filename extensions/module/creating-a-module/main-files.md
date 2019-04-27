@@ -58,7 +58,7 @@ And while it doesn't do anything yet, **AcmeTestModule** is now ready to be used
   ],
   "require": {
     "php": ">=7.1.3",
-    "harmony/sdk": "dev-master"
+    "harmony/sdk": "*"
   },
   "autoload": {
     "psr-4": {

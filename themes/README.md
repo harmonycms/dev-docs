@@ -11,7 +11,7 @@ Themes are automatically installed by the HarmonyFlex tool in the **themes** dir
 By example, if you want to install the acme demo theme, you just need to execute the next command:
 
 ```bash
-composer require harmony/acme-theme:dev-master
+composer require harmony/acme-theme
 ```
 
 Themes used in your applications will be enabled in the `/config/themes.php` file:
