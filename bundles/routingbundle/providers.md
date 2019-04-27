@@ -2,12 +2,14 @@
 
 Routes can be pulled from multiple sources. Currently this bundle comes with 2 route providers implementation for [Doctrine ORM](https://www.doctrine-project.org/projects/orm.html) and [Doctrine ODM](https://www.doctrine-project.org/projects/mongodb-odm.html):
 
-* [DoctrineORM](chapter-1.-providers.md#doctrineorm)
-* [DoctrineODM](chapter-1.-providers.md#doctrineodm)
+* [DoctrineORM](providers.md#doctrineorm)
+* [DoctrineODM](providers.md#doctrineodm)
 
-## Providers
+{% hint style="info" %}
+Doctrine providers are automatically loaded in the bundle extension class.
+{% endhint %}
 
-### DoctrineORM
+## Doctrine ORM
 
-### DoctrineODM
+## Doctrine ODM
 

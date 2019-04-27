@@ -12,7 +12,7 @@
   * [MenuBundle](bundles/menubundle/README.md)
     * [Chapter 1. Installation](bundles/menubundle/installation.md)
   * [RoutingBundle](bundles/routingbundle/README.md)
-    * [Chapter 1. Providers](bundles/routingbundle/chapter-1.-providers.md)
+    * [Chapter 1. Providers](bundles/routingbundle/providers.md)
   * [SettingsManagerBundle](bundles/settingsmanagerbundle/README.md)
     * [Chapter 1. Providers](bundles/settingsmanagerbundle/providers.md)
   * [ThemeBundle](bundles/themebundle/README.md)

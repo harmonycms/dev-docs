@@ -10,7 +10,7 @@ This bundle is forked from [Symfony CMF RoutingBundle](https://packagist.org/pac
 
 ## Learn more
 
-* [Chapter 1. Providers](chapter-1.-providers.md)
+* [Chapter 1. Providers](providers.md)
 * Chapter 2. Dynamic router
 * Chapter 3. Redirect router
 
