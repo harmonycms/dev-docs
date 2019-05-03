@@ -23,6 +23,7 @@
     * [Chapter 2. Configuration](bundles/userbundle/configuration.md)
     * [Chapter 3. Security layer](bundles/userbundle/security-layer.md)
     * [Chapter 4. Command line tools](bundles/userbundle/command-line-tools.md)
+    * [Chapter 5. User's roles](bundles/userbundle/chapter-5.-users-roles.md)
   * [WebProfilerBundle](bundles/webprofilerbundle/README.md)
     * [Chapter 1. Installation](bundles/webprofilerbundle/installation.md)
 * [The Extension system](extensions/README.md)

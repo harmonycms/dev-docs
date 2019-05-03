@@ -22,4 +22,5 @@ It provides a Doctrine UserProvider.
 * [Chapter 2. Configuration](configuration.md)
 * [Chapter 3. Security layer](security-layer.md)
 * [Chapter 4. Command line tools](command-line-tools.md)
+* [Chapter 5. User's roles](chapter-5.-users-roles.md)
 
