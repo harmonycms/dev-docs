@@ -10,7 +10,7 @@ This documentation assume that you already have great knowledge about [Symfony f
 * [The Extension system](extensions/)
 * [The Theme system](themes/)
 * [The Menu system](bundles/menubundle/)
-* [The Setting system](extensions/)
+* [The Parameters system](parameters/)
 * [The Database Layer](database-layer/)
 * [The Routing System](routing.md)
 * [Kernel configuration](kernel-configuration.md)
